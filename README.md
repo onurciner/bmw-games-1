@@ -1,8 +1,8 @@
 # BMW iDrive 7 Games (MGU)
 
-Games for BMW iDrive 7 (MGU head units), for when the car is parked: drawn by the **mgu-render** GPU renderer at 60 fps, played with the iDrive controller or the touchscreen. Compatible with **Robert Nisipeanu's mgu-store**.
+Games for BMW iDrive 7 (MGU head units): drawn by the **mgu-render** GPU renderer at 60 fps, played with the iDrive controller or the touchscreen. Compatible with **Robert Nisipeanu's mgu-store**.
 
-Every game is **parked only**: it pauses (or deals no new hand) as soon as the car moves above 3 km/h. The casino games use **play credits only**: nothing to buy, nothing to win.
+Every game has a **Play while driving** setting (on by default): on, it keeps playing above 3 km/h; off, it pauses (or deals no new hand) as soon as the car moves and can't be started while driving. While the car is moving, only a passenger should play: the screen is in the driver's view. The casino games use **play credits only**: nothing to buy, nothing to win.
 
 The car apps (Engine Care, Hybrid Cost) are in [aurelmarius/bmw-apps](https://github.com/aurelmarius/bmw-apps).
 
@@ -11,20 +11,20 @@ The car apps (Engine Care, Hybrid Cost) are in [aurelmarius/bmw-apps](https://gi
 ## 🎮 Games
 
 ### 1. 🐍 Snake (`aurelm_snake`)
-*The classic game, drawn by the GPU renderer at 60 fps. Parked only.*
+*The classic game, drawn by the GPU renderer at 60 fps.*
 
 * **Smooth at any speed**: the snake slides between cells every frame (mgu-render); without the renderer it still runs as HMI images, a few frames a second.
 * **iDrive controller**: push to go that way, turn to turn left / right, press to pause. Paused: push left leaves the app, a turn hands the controller back to the button bar and Settings.
 * **Touchscreen**: swipe to steer, tap on the board to turn towards the tap, tap beside it to pause.
 * **Settings**: speed (slow / normal / fast, faster with every food), edges (wrap around or solid walls), colour theme.
 * **Best score** kept for each speed and edge setting.
-* **Parked only**: pauses as soon as the car moves (above 3 km/h) and can't be started while driving.
+* **Driving**: plays above 3 km/h while **Play while driving** is on in Settings; off, it pauses and can't be started while driving.
 
 ![Snake - a game on the central display](docs/screenshots/snake-game.png)
 <sub>Screenshot drawn by the app on a PC (`tools/screenshots.js`), a game played by an autopilot.</sub>
 
 ### 2. 🚀 Track Defender (`aurelm_track_defender`)
-*An arcade shooter: drones attack the track in waves, the M car shoots them down. GPU renderer at 60 fps. Parked only.*
+*An arcade shooter: drones attack the track in waves, the M car shoots them down. GPU renderer at 60 fps.*
 
 * **Waves of drones**: they fly in on curves to a formation that sways and slowly sinks towards the track; some dive at the car and fire on the way. Heavy drones take two hits, every fifth wave is a boss drone.
 * **Barriers** between the car and the drones crumble under the drones' fire; the car's own shots pass through.
@@ -32,13 +32,13 @@ The car apps (Engine Care, Hybrid Cost) are in [aurelmarius/bmw-apps](https://gi
 * **Power-ups** from downed drones: double fire, a guard that takes one hit, an extra life.
 * **Particle explosions, drifting stars, glowing shots** - all drawn by mgu-render every frame.
 * **Settings**: difficulty (easy / normal / hard), colour theme. Best score kept for each difficulty.
-* **Parked only**: pauses as soon as the car moves (above 3 km/h) and can't be started while driving.
+* **Driving**: plays above 3 km/h while **Play while driving** is on in Settings; off, it pauses and can't be started while driving.
 
 ![Track Defender - wave 3, double fire](docs/screenshots/track_defender-game.png)
 <sub>Screenshot drawn by the app on a PC (`tools/screenshots.js`), a game played by an autopilot.</sub>
 
 ### 3. 🏁 Pit Wall (`aurelm_pit_wall`)
-*Break the advertising panels off the pit wall, catching the ball on an M front wing. A night race scene at 60 fps. Parked only.*
+*Break the advertising panels off the pit wall, catching the ball on an M front wing. A night race scene at 60 fps.*
 
 * **The scene**: floodlights over a grandstand full of camera flashes, glossy sponsor panels that shatter into shards, carbon panels that crack before they go, fuel cans that explode and take their neighbours with them (the screen shakes).
 * **Start lights**: every level starts with five red lights; the ball goes when they go out.
@@ -48,13 +48,13 @@ The car apps (Engine Care, Hybrid Cost) are in [aurelmarius/bmw-apps](https://gi
 * **Six walls** (Main Straight, The Wedge, Three Stripes, Chicane, Diamond, The Circuit), harder each round.
 * **iDrive controller**: turn to move the wing, push left / right for a longer step, press to launch (or pause). **Touchscreen**: the wing follows your finger, tap to launch.
 * **Settings**: ball speed (relaxed / normal / fast), colour theme. Best score kept for each ball speed.
-* **Parked only**: pauses as soon as the car moves (above 3 km/h) and can't be started while driving.
+* **Driving**: plays above 3 km/h while **Play while driving** is on in Settings; off, it pauses and can't be started while driving.
 
 ![Pit Wall - level 4, a combo x3, DRS open](docs/screenshots/pit_wall-game.png)
 <sub>Screenshot drawn by the app on a PC (`tools/screenshots.js`), a game played by an autopilot.</sub>
 
 ### 4. 🎰 Lucky Sevens (`aurelm_lucky_sevens`)
-*A five reel slot machine for play credits, drawn by the GPU renderer at 60 fps. Parked only.*
+*A five reel slot machine for play credits, drawn by the GPU renderer at 60 fps.*
 
 * **The machine**: a lacquered cabinet in a gold moulding with marquee bulbs, reels behind curved glass in a chrome bezel, glossy symbols lit from the top left (an extruded 7 with a gold rim, cherries, lemon, bell, BAR, a cut diamond, the WILD star), a control panel with LCD read-outs and a domed SPIN button.
 * **Reels that feel real**: each winds up, runs with a motion blur, and stops one after the other with a small bounce; the bulbs chase round the machine while they run.
@@ -66,7 +66,7 @@ The car apps (Engine Care, Hybrid Cost) are in [aurelmarius/bmw-apps](https://gi
 * **iDrive controller**: press = spin, turn = bet, push up = autoplay, push right = max bet, push down = statistics. **Touchscreen**: the panel's keys, or tap the reels to spin.
 * **Play credits only**: nothing to buy, nothing to win. Out of credits, the SPIN button gives 1 000 new ones. The machine pays back about 96 of every 100 credits bet, free spins and jackpot included. Credits, bet, the jackpot, free spins left and the statistics are kept between drives.
 * **Settings**: cabinet colour (ruby / sapphire / emerald / onyx), reel speed (normal / fast).
-* **Parked only**: no spin while the car moves (above 3 km/h), autoplay goes off.
+* **Driving**: no spin above 3 km/h unless **Play while driving** is on; autoplay goes off when it pauses.
 
 ![Lucky Sevens - the reels running](docs/screenshots/lucky_sevens-spin.png)
 ![Lucky Sevens - a win on several lines](docs/screenshots/lucky_sevens-win.png)
@@ -75,7 +75,7 @@ The car apps (Engine Care, Hybrid Cost) are in [aurelmarius/bmw-apps](https://gi
 <sub>Screenshots drawn by the app on a PC (`tools/screenshots.js`), seeded spins.</sub>
 
 ### 5. 🃏 Blackjack (`aurelm_blackjack`)
-*Casino blackjack for play credits, drawn by the GPU renderer at 60 fps. Parked only.*
+*Casino blackjack for play credits, drawn by the GPU renderer at 60 fps.*
 
 * **The table**: felt lit from above, a padded leather rail along its curved edge, the table's printing in gold along the arc, the dealer's chip rack, the shoe and the discard tray. Cards with real pips and court cards in a gold frame, casino chips in perspective.
 * **Dealt like at the casino**: the cards fly from the shoe and settle in a fan, the dealer's hole card turns over, chips slide to the bet, winnings come from the dealer's rack, lost bets go to it, finished cards go to the discard tray.
@@ -85,14 +85,14 @@ The car apps (Engine Care, Hybrid Cost) are in [aurelmarius/bmw-apps](https://gi
 * **iDrive controller**: betting: press = deal, turn = bet; playing: turn to choose HIT / STAND / DOUBLE / SPLIT and press, or push up = hit, down = stand, right = double, left = split. **Touchscreen**: the panel's keys.
 * **Play credits only**: nothing to buy, nothing to win. Out of credits, DEAL gives 1 000 new ones. Credits, bet and statistics are kept between drives.
 * **Settings**: table felt (green / blue / red / black), card backs (M Tricolour: carbon fibre with the three M stripes / red / blue), dealing speed, strategy hint on / off.
-* **Parked only**: no new hand while the car moves (above 3 km/h); a hand in play waits.
+* **Driving**: no new hand above 3 km/h unless **Play while driving** is on; with it off, a hand in play waits.
 
 ![Blackjack - 11 against a 5: the hint says double](docs/screenshots/blackjack-play.png)
 ![Blackjack - a split of sixes, the dealer busts](docs/screenshots/blackjack-split.png)
 <sub>Screenshots drawn by the app on a PC (`tools/screenshots.js`), seeded hands played by basic strategy.</sub>
 
 ### 6. ♠️ Solitaire (`aurelm_solitaire`)
-*Klondike, the classic patience, on a card table. GPU renderer at 60 fps. Parked only.*
+*Klondike, the classic patience, on a card table. GPU renderer at 60 fps.*
 
 * **The table**: felt lit from above in a dark wooden frame with a brass inlay, the places for the piles printed on it (each foundation with its suit), the same cards as Blackjack.
 * **Cards that move like cards**: every card slides to where it belongs, so a deal, a move, a draw or an undo flies by itself; a card turned over flips; a won game sends the cards bouncing off the foundations, leaving a trail.
@@ -109,7 +109,7 @@ The car apps (Engine Care, Hybrid Cost) are in [aurelmarius/bmw-apps](https://gi
 <sub>Screenshots drawn by the app on a PC (`tools/screenshots.js`), seeded deals played by the hint.</sub>
 
 ### 7. 🏎️ Apex Chase (`aurelm_apex_chase`)
-*A maze chase in a city at night: the M car against four electric cars. GPU renderer at 60 fps. Parked only.*
+*A maze chase in a city at night: the M car against four electric cars. GPU renderer at 60 fps.*
 
 * **The city from above**: asphalt streets with lane marks and pools of street-lamp light, blocks of buildings with lit windows and rooftop plant, parks with trees, tunnels at both ends of the middle avenue, the charging station in the middle. Two cities, in turns from level to level.
 * **The M car** (white, blue, green, red or yellow, with the three stripes on its bonnet and its headlights on the street) collects the fuel drops on every street.
@@ -125,7 +125,7 @@ The car apps (Engine Care, Hybrid Cost) are in [aurelmarius/bmw-apps](https://gi
 <sub>Screenshots drawn by the app on a PC (`tools/screenshots.js`), played by an autopilot.</sub>
 
 ### 8. 🛡️ Street Siege (`aurelm_street_siege`)
-*Defend the M garage: cars storm an industrial yard at night, the M car stops them with its roof cannon. GPU renderer at 60 fps. Parked only.*
+*Defend the M garage: cars storm an industrial yard at night, the M car stops them with its roof cannon. GPU renderer at 60 fps.*
 
 * **Five districts, in turn, level after level**: the **yard** (stacks of race tyres, concrete, a canal, trees), the **docks** (containers in stacks, a basin, rail tracks, fences), the **warehouses** (long roofs with skylights, pallets, bollards), the **parking** (rows of abandoned cars, islands with trees) and the **scrapyard** (heaps of tyres, wrecks, oil on the dirt). Each is a maze laid out like a town: blocks with streets two cars wide between them, some closed off into long walls and dead ends, a third to nearly half of the yard full; symmetric, every street reachable. A new layout every level.
 * **What's in the way**: tyres and pallets fall apart brick by brick when shot; concrete and wrecks only give way to the strongest cannon; containers and warehouses never; fences stop the cars but not the shots (fire through them); water stops cars, not shots; oil makes a car slide; trees hide the cars under them.
@@ -142,7 +142,7 @@ The car apps (Engine Care, Hybrid Cost) are in [aurelmarius/bmw-apps](https://gi
 <sub>Screenshots drawn by the app on a PC (`tools/screenshots.js`), played by an autopilot.</sub>
 
 ### 9. 🕹️ M Pinball (`aurelm_pinball`)
-*A pinball table on the circuit, seen in perspective so the whole table fits the wide screen. GPU renderer at 60 fps. Parked only.*
+*A pinball table on the circuit, seen in perspective so the whole table fits the wide screen. GPU renderer at 60 fps.*
 
 * **Real ball physics**: a steel ball rolling under gravity, stepped 480 times a second; walls, posts, rubbers and flippers it bounces off as it should. A ball batted near the flipper's tip goes across the table, one near its pivot goes straight up.
 * **The table**: three **wheels** for bumpers (1 000), two slingshots, the **GEARS** lanes 1 2 3 at the top (all three lit: the bonus gears up to x5; the flippers move the lit lanes along), the **M-POWER** targets, the **PIT LANE** saucer, the **CHICANE** ramp in clear blue plastic with red and white kerbs and a wire that brings the ball back to the left flipper.
@@ -158,7 +158,7 @@ The car apps (Engine Care, Hybrid Cost) are in [aurelmarius/bmw-apps](https://gi
 <sub>Screenshots drawn by the app on a PC (`tools/screenshots.js`), played by an autopilot.</sub>
 
 ### 10. 💥 Ridge Duel (`aurelm_ridge_duel`)
-*Two armed cars on hills at dusk, a turn each: aim, power, fire. GPU renderer. Parked only.*
+*Two armed cars on hills at dusk, a turn each: aim, power, fire. GPU renderer.*
 
 * **Your car**, chosen in the **garage** before every match (the two side by side with five ratings each: mobility, armour, climbing, how hard to hit, gun height; and the paint): a **sport sedan** - *agile*: drives almost twice as far in a turn, low and narrow so it's harder to hit, no armour; or a **performance SUV** - *armoured*: takes 20 % less damage, climbs steeper slopes, fires from higher up, but drives less. Drawn as real silhouettes (the kink in the last side window, the gill behind the front wheel, four tailpipes, big wheels with blue calipers) in the **paint** you choose: blue, white, black, grey, green, red or yellow. No make's grille or badge on them.
 * **The rival**: a full-size pick-up with its gun in the bed (10 % armour). The game works its shot out and misses by a little: by less on harder levels, and by less with every shot while you stay where you are, so it pays to move.
@@ -174,7 +174,7 @@ The car apps (Engine Care, Hybrid Cost) are in [aurelmarius/bmw-apps](https://gi
 <sub>Screenshots drawn by the app on a PC (`tools/screenshots.js`).</sub>
 
 ### 11. ⏱️ Lap Record (`aurelm_lap_record`)
-*Time trial on a circuit seen from above, the camera on the car. GPU renderer. Parked only.*
+*Time trial on a circuit seen from above, the camera on the car. GPU renderer.*
 
 * **The knob is the steering wheel**: turn it and the front wheels turn; let it be and the wheel comes back to the middle by itself. Push left / right and hold for full lock. **Throttle**: automatic (the car accelerates by itself, hold the press to brake) or manual (hold the press for throttle, push down to brake).
 * **Physics**: the tyres turn the car as hard as the ground lets them (asphalt, kerbs, grass, gravel): too fast into a corner it slides wide, smokes and leaves its marks, and scrubs off speed. Off the track it's slow; into the barrier it bounces off.

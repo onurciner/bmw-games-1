@@ -1,8 +1,8 @@
 {
   "id": "aurelm_track_defender",
   "title": "Track Defender",
-  "description": "Arcade shooter on the central display, drawn by the GPU renderer at 60 fps: drones attack the track in waves, the M car shoots them down. iDrive controller or touch. Parked only.",
-  "version": "1.0.0",
+  "description": "Arcade shooter on the central display, drawn by the GPU renderer at 60 fps: drones attack the track in waves, the M car shoots them down. iDrive controller or touch.",
+  "version": "1.0.1",
   "vendor": "custom",
   "loggingId": "OA9T",
   "iconGlyph": "drone",
@@ -45,6 +45,12 @@
     }
   ],
   "settings": [
+    {
+      "key": "allowInMotion",
+      "label": "Play while driving",
+      "type": "bool",
+      "default": true
+    },
     {
       "key": "difficulty",
       "label": "Difficulty",

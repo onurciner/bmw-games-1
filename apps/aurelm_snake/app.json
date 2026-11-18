@@ -1,8 +1,8 @@
 {
   "id": "aurelm_snake",
   "title": "Snake",
-  "description": "Snake on the central display, drawn by the GPU renderer at 60 fps: steer with the iDrive controller (push or turn) or swipe on the screen. Parked only.",
-  "version": "1.0.0",
+  "description": "Snake on the central display, drawn by the GPU renderer at 60 fps: steer with the iDrive controller (push or turn) or swipe on the screen.",
+  "version": "1.0.1",
   "vendor": "custom",
   "loggingId": "OA9S",
   "iconGlyph": "snake",
@@ -41,6 +41,12 @@
     }
   ],
   "settings": [
+    {
+      "key": "allowInMotion",
+      "label": "Play while driving",
+      "type": "bool",
+      "default": true
+    },
     {
       "key": "speed",
       "label": "Speed",

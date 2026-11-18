@@ -5,187 +5,187 @@
     {
       "id": "aurelm_apex_chase",
       "kind": "app",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "title": "Apex Chase",
-      "description": "A maze chase in a city at night, drawn by the GPU renderer at 60 fps: the M car collects the fuel drops while four electric cars hunt it; a NITRO can drains their batteries. iDrive controller or swipes. Parked only.",
+      "description": "A maze chase in a city at night, drawn by the GPU renderer at 60 fps: the M car collects the fuel drops while four electric cars hunt it; a NITRO can drains their batteries. iDrive controller or swipes.",
       "mguHmi": [
         "ID7"
       ],
       "artifact": {
-        "name": "aurelm_apex_chase@1.0.0.tgz",
-        "size": 570128,
-        "sha256": "21c78f14db74f9e08210862fa16d100e9af010244933c769bb9083764267c02b",
-        "url": "packages/aurelm_apex_chase@1.0.0.tgz"
+        "name": "aurelm_apex_chase@1.0.1.tgz",
+        "size": 570426,
+        "sha256": "461b5aa7e30e97a7adfe9b65061961d6c850a3bc00c8e1ead318a548aac4b800",
+        "url": "packages/aurelm_apex_chase@1.0.1.tgz"
       },
       "uninstallable": true
     },
     {
       "id": "aurelm_blackjack",
       "kind": "app",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "title": "Blackjack",
-      "description": "Casino blackjack for play credits, drawn by the GPU renderer at 60 fps: a felt table with a leather rail, cards dealt from the shoe, chips, six decks, 3 to 2, double, split, insurance, a strategy hint, statistics. iDrive controller or touch. Parked only.",
+      "description": "Casino blackjack for play credits, drawn by the GPU renderer at 60 fps: a felt table with a leather rail, cards dealt from the shoe, chips, six decks, 3 to 2, double, split, insurance, a strategy hint, statistics. iDrive controller or touch.",
       "mguHmi": [
         "ID7"
       ],
       "artifact": {
-        "name": "aurelm_blackjack@1.0.1.tgz",
-        "size": 573880,
-        "sha256": "128e7261e22a43d3d441c998a694a3891cc171cec16d20aa1740bcfd5b6c6fd5",
-        "url": "packages/aurelm_blackjack@1.0.1.tgz"
+        "name": "aurelm_blackjack@1.0.2.tgz",
+        "size": 574238,
+        "sha256": "53cc852c072c36283835cb259ba392de2eab83de3b81234350d207dfd91e3df2",
+        "url": "packages/aurelm_blackjack@1.0.2.tgz"
       },
       "uninstallable": true
     },
     {
       "id": "aurelm_lap_record",
       "kind": "app",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "title": "Lap Record",
-      "description": "Time trial on a circuit seen from above, the camera on the car: the knob is the steering wheel, lap after lap against your best and its ghost, the gap live, sectors in purple, green and yellow. Two circuits, kerbs, gravel, tyre walls, grandstands, tyre smoke and marks. GPU renderer. Parked only.",
+      "description": "Time trial on a circuit seen from above, the camera on the car: the knob is the steering wheel, lap after lap against your best and its ghost, the gap live, sectors in purple, green and yellow. Two circuits, kerbs, gravel, tyre walls, grandstands, tyre smoke and marks. GPU renderer.",
       "mguHmi": [
         "ID7"
       ],
       "artifact": {
-        "name": "aurelm_lap_record@1.0.0.tgz",
-        "size": 574607,
-        "sha256": "f3923efc0a55b9b08a1feb34ff8583de2a320d64a6472e26ce6e37539bef0b31",
-        "url": "packages/aurelm_lap_record@1.0.0.tgz"
+        "name": "aurelm_lap_record@1.0.1.tgz",
+        "size": 574939,
+        "sha256": "9f913b1938962b6b27c18169b6d18f891d0796c71cc922fc00d04e38cceba695",
+        "url": "packages/aurelm_lap_record@1.0.1.tgz"
       },
       "uninstallable": true
     },
     {
       "id": "aurelm_lucky_sevens",
       "kind": "app",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "title": "Lucky Sevens",
-      "description": "A five reel slot machine for play credits, drawn by the GPU renderer at 60 fps: glossy symbols, reels that bounce to a stop, ten paylines, WILD, free spins, a progressive jackpot, statistics. iDrive controller or touch. Parked only.",
+      "description": "A five reel slot machine for play credits, drawn by the GPU renderer at 60 fps: glossy symbols, reels that bounce to a stop, ten paylines, WILD, free spins, a progressive jackpot, statistics. iDrive controller or touch.",
       "mguHmi": [
         "ID7"
       ],
       "artifact": {
-        "name": "aurelm_lucky_sevens@1.1.0.tgz",
-        "size": 573862,
-        "sha256": "e5ab4ccce1f2f9159eaba91c251caa3c2485b4daf08ee812517000303557708a",
-        "url": "packages/aurelm_lucky_sevens@1.1.0.tgz"
+        "name": "aurelm_lucky_sevens@1.1.1.tgz",
+        "size": 574363,
+        "sha256": "38e0117746490e35525318e893fc36360f008c43db12b9d1abbc1f9e464498b5",
+        "url": "packages/aurelm_lucky_sevens@1.1.1.tgz"
       },
       "uninstallable": true
     },
     {
       "id": "aurelm_pinball",
       "kind": "app",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "title": "M Pinball",
-      "description": "A pinball table on the circuit: wheels for bumpers, the CHICANE ramp, the PIT LANE, the M-POWER targets and SAFETY CAR MULTIBALL, seen in perspective with real ball physics; drawn by the GPU renderer at 60 fps. Flippers on the controller or a finger on each half of the table. Parked only.",
+      "description": "A pinball table on the circuit: wheels for bumpers, the CHICANE ramp, the PIT LANE, the M-POWER targets and SAFETY CAR MULTIBALL, seen in perspective with real ball physics; drawn by the GPU renderer at 60 fps. Flippers on the controller or a finger on each half of the table.",
       "mguHmi": [
         "ID7"
       ],
       "artifact": {
-        "name": "aurelm_pinball@1.0.1.tgz",
-        "size": 577802,
-        "sha256": "3be0eccdcb00e908dc45d4c9597a56a3cd2e3be1a5d35218c2782aba8e50a374",
-        "url": "packages/aurelm_pinball@1.0.1.tgz"
+        "name": "aurelm_pinball@1.0.2.tgz",
+        "size": 578340,
+        "sha256": "06eb34da229835926afab9299240b78925e33573eac8212bf1727ead8eba51d8",
+        "url": "packages/aurelm_pinball@1.0.2.tgz"
       },
       "uninstallable": true
     },
     {
       "id": "aurelm_pit_wall",
       "kind": "app",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "title": "Pit Wall",
-      "description": "Break the advertising panels off the pit wall: a night race scene drawn by the GPU renderer at 60 fps, the ball on an M front wing, start lights, combos and power-ups. iDrive controller or touch. Parked only.",
+      "description": "Break the advertising panels off the pit wall: a night race scene drawn by the GPU renderer at 60 fps, the ball on an M front wing, start lights, combos and power-ups. iDrive controller or touch.",
       "mguHmi": [
         "ID7"
       ],
       "artifact": {
-        "name": "aurelm_pit_wall@1.0.0.tgz",
-        "size": 565262,
-        "sha256": "63053576847bc45d1a76a43d77cc11cf33a7d1d4f64307eb8a48de6bc952de31",
-        "url": "packages/aurelm_pit_wall@1.0.0.tgz"
+        "name": "aurelm_pit_wall@1.0.1.tgz",
+        "size": 565730,
+        "sha256": "f7c19c4ad744756afe6303111c1c4c47f445c549780ec8a4fddb2b627f2a8fc3",
+        "url": "packages/aurelm_pit_wall@1.0.1.tgz"
       },
       "uninstallable": true
     },
     {
       "id": "aurelm_ridge_duel",
       "kind": "app",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "title": "Ridge Duel",
-      "description": "Two armed cars on hills at dusk, a turn each: aim with the knob, hold for power, fire. Ground that shells bite into, wind, four kinds of shell, a rival aimed by the game. Your car: a sport sedan (agile) or a performance SUV (armoured), in your colour. GPU renderer. Parked only.",
+      "description": "Two armed cars on hills at dusk, a turn each: aim with the knob, hold for power, fire. Ground that shells bite into, wind, four kinds of shell, a rival aimed by the game. Your car: a sport sedan (agile) or a performance SUV (armoured), in your colour. GPU renderer.",
       "mguHmi": [
         "ID7"
       ],
       "artifact": {
-        "name": "aurelm_ridge_duel@1.0.1.tgz",
-        "size": 577789,
-        "sha256": "2c6d8790aa914dd935f0d96035a2616b0317473d87f4797e591d1004a548bcc9",
-        "url": "packages/aurelm_ridge_duel@1.0.1.tgz"
+        "name": "aurelm_ridge_duel@1.0.2.tgz",
+        "size": 578176,
+        "sha256": "ead9db92df34ffe4444144094bcafc3f9ed77051ff0295d80a17a48febbc80a5",
+        "url": "packages/aurelm_ridge_duel@1.0.2.tgz"
       },
       "uninstallable": true
     },
     {
       "id": "aurelm_snake",
       "kind": "app",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "title": "Snake",
-      "description": "Snake on the central display, drawn by the GPU renderer at 60 fps: steer with the iDrive controller (push or turn) or swipe on the screen. Parked only.",
+      "description": "Snake on the central display, drawn by the GPU renderer at 60 fps: steer with the iDrive controller (push or turn) or swipe on the screen.",
       "mguHmi": [
         "ID7"
       ],
       "artifact": {
-        "name": "aurelm_snake@1.0.0.tgz",
-        "size": 557582,
-        "sha256": "bc2e4a76023e0b2a778e722d69aed4ad90a9b7eb21324d624f13fd54ef61c014",
-        "url": "packages/aurelm_snake@1.0.0.tgz"
+        "name": "aurelm_snake@1.0.1.tgz",
+        "size": 558086,
+        "sha256": "837784400ca299019b2b50e93b9a0925060aabbe49cfac0766719aacbfc60a21",
+        "url": "packages/aurelm_snake@1.0.1.tgz"
       },
       "uninstallable": true
     },
     {
       "id": "aurelm_solitaire",
       "kind": "app",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "title": "Solitaire",
-      "description": "Klondike solitaire drawn by the GPU renderer at 60 fps: a felt card table, cards that fly, flip and bounce home. Tap or press for the best move, drag cards, draw one or three, undo, hint, auto finish, statistics. Parked only.",
+      "description": "Klondike solitaire drawn by the GPU renderer at 60 fps: a felt card table, cards that fly, flip and bounce home. Tap or press for the best move, drag cards, draw one or three, undo, hint, auto finish, statistics.",
       "mguHmi": [
         "ID7"
       ],
       "artifact": {
-        "name": "aurelm_solitaire@1.0.0.tgz",
-        "size": 570552,
-        "sha256": "742ed7f80b4169341a68675aa226b445398f24898f39906f53e6358aae980c3e",
-        "url": "packages/aurelm_solitaire@1.0.0.tgz"
+        "name": "aurelm_solitaire@1.0.1.tgz",
+        "size": 570895,
+        "sha256": "aef571b192d105fe0a62ffe7fa934f9033ee97a06754070faf47fffccdbc7bd6",
+        "url": "packages/aurelm_solitaire@1.0.1.tgz"
       },
       "uninstallable": true
     },
     {
       "id": "aurelm_street_siege",
       "kind": "app",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "title": "Street Siege",
-      "description": "Defend the M garage: cars storm the town by night and the M car stops them with its roof cannon. Five districts in turn (the yard, the docks, the warehouses, the parking, the scrapyard) laid out as mazes with wide streets: tyres, containers, warehouses, fences, pallets, wrecks, water, oil; power-ups; drawn by the GPU renderer at 60 fps. Parked only.",
+      "description": "Defend the M garage: cars storm the town by night and the M car stops them with its roof cannon. Five districts in turn (the yard, the docks, the warehouses, the parking, the scrapyard) laid out as mazes with wide streets: tyres, containers, warehouses, fences, pallets, wrecks, water, oil; power-ups; drawn by the GPU renderer at 60 fps.",
       "mguHmi": [
         "ID7"
       ],
       "artifact": {
-        "name": "aurelm_street_siege@1.1.0.tgz",
-        "size": 576692,
-        "sha256": "2963f545b959e9d009a68bb19edcf0ae0fce5b53cff3768f1341f4911d6fc49e",
-        "url": "packages/aurelm_street_siege@1.1.0.tgz"
+        "name": "aurelm_street_siege@1.1.1.tgz",
+        "size": 577139,
+        "sha256": "6fbf1ad4d2dce70ad9885595a0cea34108f3adf2a04b03d29b339a9b5bcc7def",
+        "url": "packages/aurelm_street_siege@1.1.1.tgz"
       },
       "uninstallable": true
     },
     {
       "id": "aurelm_track_defender",
       "kind": "app",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "title": "Track Defender",
-      "description": "Arcade shooter on the central display, drawn by the GPU renderer at 60 fps: drones attack the track in waves, the M car shoots them down. iDrive controller or touch. Parked only.",
+      "description": "Arcade shooter on the central display, drawn by the GPU renderer at 60 fps: drones attack the track in waves, the M car shoots them down. iDrive controller or touch.",
       "mguHmi": [
         "ID7"
       ],
       "artifact": {
-        "name": "aurelm_track_defender@1.0.0.tgz",
-        "size": 564807,
-        "sha256": "14f972b3cd7e41e0addff451164226b90cf25ff69f27a71d63b2449018dec378",
-        "url": "packages/aurelm_track_defender@1.0.0.tgz"
+        "name": "aurelm_track_defender@1.0.1.tgz",
+        "size": 565282,
+        "sha256": "804f46821db5749faf2819bf4b3e0e2368f1abdb8759ef2ab4225d4c0613bbc1",
+        "url": "packages/aurelm_track_defender@1.0.1.tgz"
       },
       "uninstallable": true
     }

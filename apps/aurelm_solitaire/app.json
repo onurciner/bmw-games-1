@@ -1,8 +1,8 @@
 {
   "id": "aurelm_solitaire",
   "title": "Solitaire",
-  "description": "Klondike solitaire drawn by the GPU renderer at 60 fps: a felt card table, cards that fly, flip and bounce home. Tap or press for the best move, drag cards, draw one or three, undo, hint, auto finish, statistics. Parked only.",
-  "version": "1.0.0",
+  "description": "Klondike solitaire drawn by the GPU renderer at 60 fps: a felt card table, cards that fly, flip and bounce home. Tap or press for the best move, drag cards, draw one or three, undo, hint, auto finish, statistics.",
+  "version": "1.0.1",
   "vendor": "custom",
   "loggingId": "OA9K",
   "iconGlyph": "solitaire",
@@ -45,6 +45,12 @@
     }
   ],
   "settings": [
+    {
+      "key": "allowInMotion",
+      "label": "Play while driving",
+      "type": "bool",
+      "default": true
+    },
     {
       "key": "draw",
       "label": "Draw",

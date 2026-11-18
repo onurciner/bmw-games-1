@@ -2,77 +2,77 @@
   "apps": {
     "aurelm_apex_chase": {
       "title": "Apex Chase",
-      "description": "A maze chase in a city at night, drawn by the GPU renderer at 60 fps: the M car collects the fuel drops while four electric cars hunt it; a NITRO can drains their batteries. iDrive controller or swipes. Parked only.",
+      "description": "A maze chase in a city at night, drawn by the GPU renderer at 60 fps: the M car collects the fuel drops while four electric cars hunt it; a NITRO can drains their batteries. iDrive controller or swipes.",
       "author": "custom",
       "icon": "aurelm_apex_chase.png",
       "iconSha256": "2def54864ab5f2f35ec6aeabf45dbe83e5ee463bbb5518191bf06a8dbe4b5a80"
     },
     "aurelm_blackjack": {
       "title": "Blackjack",
-      "description": "Casino blackjack for play credits, drawn by the GPU renderer at 60 fps: a felt table with a leather rail, cards dealt from the shoe, chips, six decks, 3 to 2, double, split, insurance, a strategy hint, statistics. iDrive controller or touch. Parked only.",
+      "description": "Casino blackjack for play credits, drawn by the GPU renderer at 60 fps: a felt table with a leather rail, cards dealt from the shoe, chips, six decks, 3 to 2, double, split, insurance, a strategy hint, statistics. iDrive controller or touch.",
       "author": "custom",
       "icon": "aurelm_blackjack.png",
       "iconSha256": "a13dd922338503c5d022f9a19bad0eb207453f942a8739975e29bec908aca7c7"
     },
     "aurelm_lap_record": {
       "title": "Lap Record",
-      "description": "Time trial on a circuit seen from above, the camera on the car: the knob is the steering wheel, lap after lap against your best and its ghost, the gap live, sectors in purple, green and yellow. Two circuits, kerbs, gravel, tyre walls, grandstands, tyre smoke and marks. GPU renderer. Parked only.",
+      "description": "Time trial on a circuit seen from above, the camera on the car: the knob is the steering wheel, lap after lap against your best and its ghost, the gap live, sectors in purple, green and yellow. Two circuits, kerbs, gravel, tyre walls, grandstands, tyre smoke and marks. GPU renderer.",
       "author": "custom",
       "icon": "aurelm_lap_record.png",
       "iconSha256": "c56387907ca3dbe3dd874125b86e3b87938922dbf52bcac159603d6bdbc133ae"
     },
     "aurelm_lucky_sevens": {
       "title": "Lucky Sevens",
-      "description": "A five reel slot machine for play credits, drawn by the GPU renderer at 60 fps: glossy symbols, reels that bounce to a stop, ten paylines, WILD, free spins, a progressive jackpot, statistics. iDrive controller or touch. Parked only.",
+      "description": "A five reel slot machine for play credits, drawn by the GPU renderer at 60 fps: glossy symbols, reels that bounce to a stop, ten paylines, WILD, free spins, a progressive jackpot, statistics. iDrive controller or touch.",
       "author": "custom",
       "icon": "aurelm_lucky_sevens.png",
       "iconSha256": "2c446e07e482a3f68a463578ec7d28307b6bb3b997e6d15a9b0ba4f90b7c7815"
     },
     "aurelm_pinball": {
       "title": "M Pinball",
-      "description": "A pinball table on the circuit: wheels for bumpers, the CHICANE ramp, the PIT LANE, the M-POWER targets and SAFETY CAR MULTIBALL, seen in perspective with real ball physics; drawn by the GPU renderer at 60 fps. Flippers on the controller or a finger on each half of the table. Parked only.",
+      "description": "A pinball table on the circuit: wheels for bumpers, the CHICANE ramp, the PIT LANE, the M-POWER targets and SAFETY CAR MULTIBALL, seen in perspective with real ball physics; drawn by the GPU renderer at 60 fps. Flippers on the controller or a finger on each half of the table.",
       "author": "custom",
       "icon": "aurelm_pinball.png",
       "iconSha256": "3342f75c6ced6511957a68296d2cd38e650fb20ba92574763031e4aded4ccbe2"
     },
     "aurelm_pit_wall": {
       "title": "Pit Wall",
-      "description": "Break the advertising panels off the pit wall: a night race scene drawn by the GPU renderer at 60 fps, the ball on an M front wing, start lights, combos and power-ups. iDrive controller or touch. Parked only.",
+      "description": "Break the advertising panels off the pit wall: a night race scene drawn by the GPU renderer at 60 fps, the ball on an M front wing, start lights, combos and power-ups. iDrive controller or touch.",
       "author": "custom",
       "icon": "aurelm_pit_wall.png",
       "iconSha256": "bb29f663abcb1a14203087f26224b2f6b55debd6f529b38229f91319f94fad0b"
     },
     "aurelm_ridge_duel": {
       "title": "Ridge Duel",
-      "description": "Two armed cars on hills at dusk, a turn each: aim with the knob, hold for power, fire. Ground that shells bite into, wind, four kinds of shell, a rival aimed by the game. Your car: a sport sedan (agile) or a performance SUV (armoured), in your colour. GPU renderer. Parked only.",
+      "description": "Two armed cars on hills at dusk, a turn each: aim with the knob, hold for power, fire. Ground that shells bite into, wind, four kinds of shell, a rival aimed by the game. Your car: a sport sedan (agile) or a performance SUV (armoured), in your colour. GPU renderer.",
       "author": "custom",
       "icon": "aurelm_ridge_duel.png",
       "iconSha256": "a6ef827a9aa82dd0b81879f4a66e8bb5b6f09b04e981ce2520708a3e137a7bf7"
     },
     "aurelm_snake": {
       "title": "Snake",
-      "description": "Snake on the central display, drawn by the GPU renderer at 60 fps: steer with the iDrive controller (push or turn) or swipe on the screen. Parked only.",
+      "description": "Snake on the central display, drawn by the GPU renderer at 60 fps: steer with the iDrive controller (push or turn) or swipe on the screen.",
       "author": "custom",
       "icon": "aurelm_snake.png",
       "iconSha256": "19bceca073c4d63c2cceae959171571eea55432471bfb569d5bf33cb947a6a03"
     },
     "aurelm_solitaire": {
       "title": "Solitaire",
-      "description": "Klondike solitaire drawn by the GPU renderer at 60 fps: a felt card table, cards that fly, flip and bounce home. Tap or press for the best move, drag cards, draw one or three, undo, hint, auto finish, statistics. Parked only.",
+      "description": "Klondike solitaire drawn by the GPU renderer at 60 fps: a felt card table, cards that fly, flip and bounce home. Tap or press for the best move, drag cards, draw one or three, undo, hint, auto finish, statistics.",
       "author": "custom",
       "icon": "aurelm_solitaire.png",
       "iconSha256": "1effec6c194696f547afd63ee87201c65a59f54fb4cbfa652fafa4eeb027bdc1"
     },
     "aurelm_street_siege": {
       "title": "Street Siege",
-      "description": "Defend the M garage: cars storm the town by night and the M car stops them with its roof cannon. Five districts in turn (the yard, the docks, the warehouses, the parking, the scrapyard) laid out as mazes with wide streets: tyres, containers, warehouses, fences, pallets, wrecks, water, oil; power-ups; drawn by the GPU renderer at 60 fps. Parked only.",
+      "description": "Defend the M garage: cars storm the town by night and the M car stops them with its roof cannon. Five districts in turn (the yard, the docks, the warehouses, the parking, the scrapyard) laid out as mazes with wide streets: tyres, containers, warehouses, fences, pallets, wrecks, water, oil; power-ups; drawn by the GPU renderer at 60 fps.",
       "author": "custom",
       "icon": "aurelm_street_siege.png",
       "iconSha256": "4e43bb80493533e2d3ed224b7e2904edfc505116d8f2ca1ac8ab042246bcdb25"
     },
     "aurelm_track_defender": {
       "title": "Track Defender",
-      "description": "Arcade shooter on the central display, drawn by the GPU renderer at 60 fps: drones attack the track in waves, the M car shoots them down. iDrive controller or touch. Parked only.",
+      "description": "Arcade shooter on the central display, drawn by the GPU renderer at 60 fps: drones attack the track in waves, the M car shoots them down. iDrive controller or touch.",
       "author": "custom",
       "icon": "aurelm_track_defender.png",
       "iconSha256": "24c81280b14e8e2732c78d1880e0f610634b6656b6e1716d7e47bcee65b4a8cb"

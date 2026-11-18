@@ -1,8 +1,8 @@
 {
   "id": "aurelm_apex_chase",
   "title": "Apex Chase",
-  "description": "A maze chase in a city at night, drawn by the GPU renderer at 60 fps: the M car collects the fuel drops while four electric cars hunt it; a NITRO can drains their batteries. iDrive controller or swipes. Parked only.",
-  "version": "1.0.0",
+  "description": "A maze chase in a city at night, drawn by the GPU renderer at 60 fps: the M car collects the fuel drops while four electric cars hunt it; a NITRO can drains their batteries. iDrive controller or swipes.",
+  "version": "1.0.1",
   "vendor": "custom",
   "loggingId": "OA9A",
   "iconGlyph": "chase",
@@ -45,6 +45,12 @@
     }
   ],
   "settings": [
+    {
+      "key": "allowInMotion",
+      "label": "Play while driving",
+      "type": "bool",
+      "default": true
+    },
     {
       "key": "difficulty",
       "label": "Difficulty",

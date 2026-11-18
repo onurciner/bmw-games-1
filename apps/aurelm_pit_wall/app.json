@@ -1,8 +1,8 @@
 {
   "id": "aurelm_pit_wall",
   "title": "Pit Wall",
-  "description": "Break the advertising panels off the pit wall: a night race scene drawn by the GPU renderer at 60 fps, the ball on an M front wing, start lights, combos and power-ups. iDrive controller or touch. Parked only.",
-  "version": "1.0.0",
+  "description": "Break the advertising panels off the pit wall: a night race scene drawn by the GPU renderer at 60 fps, the ball on an M front wing, start lights, combos and power-ups. iDrive controller or touch.",
+  "version": "1.0.1",
   "vendor": "custom",
   "loggingId": "OA9W",
   "iconGlyph": "wall",
@@ -45,6 +45,12 @@
     }
   ],
   "settings": [
+    {
+      "key": "allowInMotion",
+      "label": "Play while driving",
+      "type": "bool",
+      "default": true
+    },
     {
       "key": "speed",
       "label": "Ball speed",

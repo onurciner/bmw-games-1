@@ -1,8 +1,8 @@
 {
   "id": "aurelm_lap_record",
   "title": "Lap Record",
-  "description": "Time trial on a circuit seen from above, the camera on the car: the knob is the steering wheel, lap after lap against your best and its ghost, the gap live, sectors in purple, green and yellow. Two circuits, kerbs, gravel, tyre walls, grandstands, tyre smoke and marks. GPU renderer. Parked only.",
-  "version": "1.0.0",
+  "description": "Time trial on a circuit seen from above, the camera on the car: the knob is the steering wheel, lap after lap against your best and its ghost, the gap live, sectors in purple, green and yellow. Two circuits, kerbs, gravel, tyre walls, grandstands, tyre smoke and marks. GPU renderer.",
+  "version": "1.0.1",
   "vendor": "custom",
   "loggingId": "OA9C",
   "iconGlyph": "lap",
@@ -41,6 +41,12 @@
     }
   ],
   "settings": [
+    {
+      "key": "allowInMotion",
+      "label": "Play while driving",
+      "type": "bool",
+      "default": true
+    },
     {
       "key": "circuit",
       "label": "Circuit",
